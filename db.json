@@ -1,0 +1,67 @@
+{ 
+    "hogs": [
+    {
+        "id": 1,
+      "name": "Babe",
+      "specialty": "Being incredibly cute",
+      "greased": false,
+      "weight": 2.0,
+      "highest medal achieved": "bronze",
+      "image":
+        "https://raw.githubusercontent.com/learn-co-curriculum/react-hooks-hogwild/master/public/images/babe.jpg"
+    },
+    {
+        "id": 2, 
+      "name": "Porkchop",
+      "specialty": "Making friends",
+      "greased": true,
+      "weight": 1.6,
+      "highest medal achieved": "silver",
+      "image":
+        "https://raw.githubusercontent.com/learn-co-curriculum/react-hooks-hogwild/master/public/images/porkchop.jpg"
+    },
+    {
+        "id": 3,
+      "name": "Cherub",
+      "specialty": "Flying",
+      "greased": false,
+      "weight": 0.7,
+      "highest medal achieved": "gold",
+      "image":
+        "https://raw.githubusercontent.com/learn-co-curriculum/react-hooks-hogwild/master/public/images/cherub.jpg"
+    },
+    {
+        "id": 4,
+      "name": "Piggy smalls",
+      "specialty": "Rapping",
+      "greased": true,
+      "weight": 5.1,
+      "highest medal achieved": "platinum",
+      "image":
+        "https://raw.githubusercontent.com/learn-co-curriculum/react-hooks-hogwild/master/public/images/piggy_smalls.jpg"
+    },
+    {
+        "id": 5,
+      "name": "Trouble",
+      "specialty": "Racing",
+      "greased": true,
+      "weight": 1.7,
+      "highest medal achieved": "gold",
+      "image":
+        "https://raw.githubusercontent.com/learn-co-curriculum/react-hooks-hogwild/master/public/images/trouble.jpg"
+    },
+    {
+        "id": 6,
+      "name": "Piglet",
+      "specialty": "Bravery and friendship",
+      "greased": false,
+      "weight": 2.2,
+      "highest medal achieved": "silver",
+      "image":
+        "https://raw.githubusercontent.com/learn-co-curriculum/react-hooks-hogwild/master/public/images/piglet.jpg"
+    }
+    
+  ]
+}
+  
+  
