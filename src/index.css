@@ -90,7 +90,29 @@ ul {
   transition: 0.75s;
   opacity: 1;
 }
-
+.pig-avatar {
+  justify-self: center;
+  height: 12rem;
+  width: auto;
+}
+.container {
+  padding: 1rem;
+  width: stretch;
+  height: auto;
+  background: #515da2;
+  opacity: 0.8;
+}
+.input-text {
+  border-radius: 5px;
+  height: 2rem;
+  width: 60%;
+  font-size: 18px;
+  font-family: monospace;
+  margin: 3px;
+}
+.add-pig-form {
+  width: 80%;
+}
 .minBackgroundSneak {
   position: absolute;
   width: inherit;
