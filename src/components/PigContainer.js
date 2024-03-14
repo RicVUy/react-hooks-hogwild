@@ -2,11 +2,12 @@ import React from 'react'
 import PigCard from './PigCard'
 
 
-export default function PigContainer({hogs}) {
+export default function PigContainer({hogs, onPigDelete, onUpdatePig}) {
 
     const hogList = hogs.map((hog) => <PigCard key={hog.id}
-    hog={hog} />)
-  return (
-    <div>{hogList}</div>
+    hog={hog}  onPigDelete={onPigDelete} onUpdatePig={onUpdatePig}/>)
+  
+    return (
+    <div className='card-container'>{hogList}</div>
   )
 }

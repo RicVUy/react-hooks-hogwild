@@ -7,7 +7,8 @@ function PigForm({onAddPig}) {
         specialty: "",
         greased: false,
         weight: 0,
-        highestMedalAcheived: "",
+        likes: 0,
+        highestMedalAchieved: "",
         image: ""
     })
 
@@ -28,11 +29,11 @@ function PigForm({onAddPig}) {
         .then(r => r.json())
         .then(formData => {
             onAddPig(formData)
-            setFormData([])
+           
         })
     }
   return (
-    <div className='container'>
+    <div>
         <form className='add-pig-form' onSubmit={handleSubmit}>
             <h3>Add a Pig!</h3>
             <input
@@ -70,6 +71,15 @@ function PigForm({onAddPig}) {
             onChange={handleChange}
             className='input-text'
             />
+             <br /> 
+            <input
+            type='text'
+            name='likes'
+            value={formData.likes}
+            placeholder="0"
+            onChange={handleChange}
+            className='input-text'
+            />
            <br /> 
            <input
             type='text'
@@ -80,10 +90,11 @@ function PigForm({onAddPig}) {
             className='input-text'
             />
            <br /> 
+
            <input
             type='text'
-            name='highestMedalAcheived'
-            value={formData.highestMedalAcheived}
+            name='highestMedalAchieved'
+            value={formData.highestMedalAchieved}
             placeholder=" pig's hma...?"
             onChange={handleChange}
             className='input-text'

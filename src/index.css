@@ -79,21 +79,51 @@ ul {
 }
 
 
-.pigTile {
+/*.pigTile {
   display: inline;
   background-repeat: no-repeat;
   background-position: center 90%;
   float: left;
   margin: 2%;
   padding: 1%;
-  outline: #3B0B0B dotted thick;
+  outline: #0b3b19 dotted thick;
   transition: 0.75s;
   opacity: 1;
+}*/
+/*.wrapper {
+  display: flex;
+  height: 50vh;
+  width: 50vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  
+}
+.wrapper:hover {
+  transform: scale(1.25);
 }
 .pig-avatar {
   justify-self: center;
   height: 12rem;
   width: auto;
+}
+/*.title {
+  color: rgb(95, 166, 179);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}*/
+.item {
+  background: wheat;
+  margin-bottom: 5px;
+  padding: 5px 10px;
+}
+.content {
+  color: rgb(10, 2, 26);
+  height: auto;
+  
 }
 .container {
   padding: 1rem;
@@ -101,6 +131,21 @@ ul {
   height: auto;
   background: #515da2;
   opacity: 0.8;
+}
+button {
+  position: relative;
+  background-color: #e04b52;
+  border: none;
+  border-radius: 5px;
+  height: 3rem;
+  width: max-content;
+  color: whitesmoke;
+  font-size: 18px;
+  justify-self: center;
+}
+.buttonContainer {
+  text-align: center;
+  padding: 1rem;
 }
 .input-text {
   border-radius: 5px;
@@ -130,7 +175,7 @@ ul {
   opacity: 0.75;
 }
 
-.pigTile h3 {
+/*.pigTile h3 {
   color: #FBB;
 }
 
@@ -147,8 +192,8 @@ ul {
 }
 
 .pigTile:hover {
-  transform: scale(1.05);
-}
+  transform: scale(1.25);
+}*/
 
 
 .App-logo {
@@ -161,7 +206,17 @@ ul {
   padding: 1%;
   clear: both;
 }
-
+.del-btn {
+  position: relative;
+  background-color: #694ba1;
+  border: none;
+  border-radius: 5px;
+  height: 3rem;
+  width: max-content;
+  color: black;
+  font-size: 18px;
+  justify-self: center;
+}
 
 @keyframes App-logo-spin {
   from {
@@ -170,5 +225,26 @@ ul {
 
   to {
     transform: rotate(360deg);
+  }
+}
+.card {
+  width: 15%; /* Adjust this percentage based on your design preferences */
+  margin-bottom: 20px;
+  border: 5px solid #2b7255;
+  overflow: hidden; /* Ensure the image doesn't overflow the card */
+}
+.image-container {
+  width: 200px; /* Set the desired width */
+  height: 200px; /* Set the desired height */
+  overflow: hidden;
+}
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Adjust this property as needed */
+}
+@media (max-width: 768px) {
+  .card {
+    width: 100%; /* Full width for one card per row on smaller screens */
   }
 }

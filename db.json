@@ -4,17 +4,19 @@
       "id": 1,
       "name": "Babe",
       "specialty": "Being incredibly cute",
-      "greased": false,
+      "greased": "false",
       "weight": 2,
-      "highest medal achieved": "bronze",
+      "likes": 9,
+      "highestMedalAchieved": "bronze",
       "image": "https://raw.githubusercontent.com/learn-co-curriculum/react-hooks-hogwild/master/public/images/babe.jpg"
     },
     {
       "id": 2,
       "name": "Porkchop",
       "specialty": "Making friends",
-      "greased": true,
+      "greased": "true",
       "weight": 1.6,
+      "likes": 7,
       "highestMedalAchieved": "silver",
       "image": "https://raw.githubusercontent.com/learn-co-curriculum/react-hooks-hogwild/master/public/images/porkchop.jpg"
     },
@@ -22,8 +24,9 @@
       "id": 3,
       "name": "Cherub",
       "specialty": "Flying",
-      "greased": false,
+      "greased": "false",
       "weight": 0.7,
+      "likes": 5,
       "highestMedalAchieved": "gold",
       "image": "https://raw.githubusercontent.com/learn-co-curriculum/react-hooks-hogwild/master/public/images/cherub.jpg"
     },
@@ -31,8 +34,9 @@
       "id": 4,
       "name": "Piggy smalls",
       "specialty": "Rapping",
-      "greased": true,
+      "greased": "true",
       "weight": 5.1,
+      "likes": 6,
       "highestMedalAchieved": "platinum",
       "image": "https://raw.githubusercontent.com/learn-co-curriculum/react-hooks-hogwild/master/public/images/piggy_smalls.jpg"
     },
@@ -40,8 +44,9 @@
       "id": 5,
       "name": "Trouble",
       "specialty": "Racing",
-      "greased": true,
+      "greased": "true",
       "weight": 1.7,
+      "likes": 10,
       "highestMedalAchieved": "gold",
       "image": "https://raw.githubusercontent.com/learn-co-curriculum/react-hooks-hogwild/master/public/images/trouble.jpg"
     },
@@ -49,8 +54,9 @@
       "id": 6,
       "name": "Piglet",
       "specialty": "Bravery and friendship",
-      "greased": false,
+      "greased": "false",
       "weight": 2.2,
+      "likes": 5,
       "highestMedalAchieved": "silver",
       "image": "https://raw.githubusercontent.com/learn-co-curriculum/react-hooks-hogwild/master/public/images/piglet.jpg"
     },
@@ -59,9 +65,40 @@
       "specialty": "Babysitting",
       "greased": "True",
       "weight": "3.3",
-      "highestMedalAcheived": "gold",
+      "likes": 4,
+      "highestMedalAchieved": "gold",
       "image": "https://raw.githubusercontent.com/learn-co-curriculum/react-hooks-hogwild/master/public/images/leggo_my_eggo.jpg",
       "id": 7
+    },
+    {
+      "name": "Peppa",
+      "specialty": "Being adventurous",
+      "greased": "false",
+      "weight": "3.7",
+      "likes": 5,
+      "highestMedalAchieved": "wood",
+      "image": "https://raw.githubusercontent.com/learn-co-curriculum/react-hooks-hogwild/master/public/images/peppa.jpg",
+      "id": 8
+    },
+    {
+      "name": "Bernard",
+      "specialty": "hunting",
+      "greased": "false",
+      "weight": 0,
+      "likes": 2,
+      "highestMedalAcheived": "diamond",
+      "image": "https://vignette.wikia.nocookie.net/westworld/images/b/b6/Bernard_Les_Ecorches.png/revision/latest/scale-to-width-down/310?cb=20180604190617",
+      "id": 10
+    },
+    {
+      "name": "Bernard",
+      "specialty": "hunting",
+      "greased": "false",
+      "weight": 0,
+      "likes": 1,
+      "highestMedalAcheived": "diamond",
+      "image": "https://vignette.wikia.nocookie.net/westworld/images/b/b6/Bernard_Les_Ecorches.png/revision/latest/scale-to-width-down/310?cb=20180604190617",
+      "id": 11
     }
   ]
 }
